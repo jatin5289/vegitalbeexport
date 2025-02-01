@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegetable Import Export</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu nav-toggle'></i>
+      <div class="logo">
+        <a href="#" class="logo-text">XYZEXPORT</a>
+      </div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">XYZEXPORT</span>
+          <i class='bx bx-x'></i>
+        </div>
+        <ul class="links">
+          <li class="nav-item">
+            <a href="#" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link">Our Products
+              <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+            </a>
+            <ul class="js-sub-menu sub-menu">
+              <li class="more">
+                <span>
+                  <a href="#" class="sub-link">Fresh vegetables
+                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                  </a>
+                </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#" class="sub-link">Neumorphism</a></li>
+                  <li><a href="#" class="sub-link">Pre-loader</a></li>
+                  <li><a href="#" class="sub-link">Glassmorphism</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search search-icon'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section id="home" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container position-relative">
+      <div class="row align-items-center min-vh-100">
+        <!-- Text Content -->
+        <div class="col-lg-6 hero-content" data-aos="fade-right">
+          <div class="hero-text-wrapper">
+            <span class="hero-subtitle">Welcome to XYZEXPORT</span>
+            <h1 class="hero-title">
+              Fresh Vegetables for
+              <span class="highlight-text">Global Trade</span>
+            </h1>
+            <p class="hero-description">
+              We supply premium quality vegetables worldwide, ensuring freshness
+              and excellence in every delivery. Your trusted partner in global
+              agricultural trade.
+            </p>
+            <div class="hero-buttons">
+              <a href="#products" class="btn primary-btn">
+                <span>Explore Products</span>
+                <i class='bx bx-right-arrow-alt'></i>
+              </a>
+              <a href="#contact" class="btn secondary-btn">
+                <i class='bx bx-phone'></i>
+                <span>Contact Us</span>
+              </a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <span class="stat-number">10+</span>
+                <span class="stat-text">Countries Served</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">1000+</span>
+                <span class="stat-text">Happy Clients</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">1+</span>
+                <span class="stat-text">Years Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image Content -->
+        <div class="col-lg-6 hero-image" data-aos="fade-left">
+          <div class="image-wrapper">
+            <img src="assets/bannerimg.webp" alt="Fresh Vegetables" class="main-image">
+            <div class="floating-card quality-card">
+              <i class='bx bx-badge-check'></i>
+              <span>Premium Quality</span>
+            </div>
+            <div class="floating-card delivery-card">
+              <i class='bx bx-world'></i>
+              <span>Global Delivery</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <i class='bx bx-chevron-down'></i>
+    </div>
+  </section>
+  
+<!-- About Section -->
+<section id="about" class="about-section">
+  <div class="container">
+    <div class="section-header text-center" >
+      <div class="title-separator">
+        <span class="section-subtitle fw-bold">Who We Are</span>
+        <h2 class="section-title">About Us</h2>
+        <span class="separator-line"></span>
+        <span class="separator-icon">
+          <i class='bx bx-leaf'></i>
+        </span>
+        <span class="separator-line"></span>
+      </div>
+    </div>
+    
+    <div class="row align-items-center">
+      <!-- Image Section -->
+      <div class="col-lg-6 col-md-12 text-center" data-aos="fade-right">
+        <div class="about-image-wrapper">
+          <img src="assets/tomato.webp" alt="About Us" class="about-img">
+         <br><br>
+        </div>
+      </div>
+      
+      <!-- Content Section -->
+      <div class="col-lg-6 col-md-12" data-aos="fade-left">
+        <div class="about-content">
+          <h3 class="content-title">Leading Vegetable Export Company Since 2024</h3>
+          <p class="content-description">
+            We are a leading vegetable import and export company, dedicated to providing
+            fresh and high-quality produce to customers worldwide. Our commitment to excellence
+            ensures that you receive only the best, straight from farm to table.
+          </p>
+          
+          <div class="features-grid">
+            <div class="feature-item">
+              <i class='bx bx-check-shield'></i>
+              <h4>100% Fresh & Organic</h4>
+              <p>Premium quality organic produce</p>
+            </div>
+            <div class="feature-item">
+              <i class='bx bx-world'></i>
+              <h4>Global Export Services</h4>
+              <p>Worldwide delivery network</p>
+            </div>
+            <div class="feature-item">
+              <i class='bx bx-badge-check'></i>
+              <h4>Trusted Partners</h4>
+              <p>Reliable farmer partnerships</p>
+            </div>
+            <div class="feature-item">
+              <i class='bx bx-time-five'></i>
+              <h4>Fast Delivery</h4>
+              <p>Quick and reliable shipping</p>
+            </div>
+          </div>
+
+          <div class="about-buttons">
+            <a href="#contact" class="btn primary-btn">Contact Us <i class='bx bx-right-arrow-alt'></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Products Section -->
+  <section id="products" class="products-section">
+    <div class="container">
+      <h2 class="text-center mb-4 animate-fade-in">Our Products</h2>
+      <div class="row">
+        <!-- Product 1 -->
+        <div class="col-md-3 mb-4">
+          <div class="card product-card animate-card">
+            <img src="assets/tomato.webp" class="card-img-top" alt="Tomatoes">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Tomatoes</h4>
+              <a href="tomato.html" class=" see-more"> <span class="arrow">→</span></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-md-3 mb-4">
+          <div class="card product-card animate-card">
+            <img src="assets/carrot.webp" class="card-img-top" alt="Carrots">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Carrots</h4>
+              <a href="carrot.html" class=" see-more"> <span class="arrow">→</span></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-md-3 mb-4">
+          <div class="card product-card animate-card">
+            <img src="assets/belpaper.jpg" class="card-img-top" alt="Bell Peppers">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Bell Peppers</h5>
+                <a href="bellpepper.html" class=" see-more"> <span class="arrow">→</span></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-md-3 mb-4">
+          <div class="card product-card animate-card">
+            <img src="assets/tomato.webp" class="card-img-top" alt="Potatoes">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Potatoes</h4>
+              <a href="potato.html" class="see-more"> <span class="arrow">→</span></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional products (Row 2) -->
+        <div class="col-md-3 mb-4">
+          <div class="card product-card animate-card">
+            <img src="assets/belpaper.jpg" class="card-img-top" alt="Cucumber">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Cucumbers</h4>
+              <a href="cucumber.html" class=" see-more"> <span class="arrow">→</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="card product-card animate-card">
+            <img src="assets/carrot.webp" class="card-img-top" alt="Onions">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Onions</h4>
+              <a href="onion.html" class="see-more"> <span class="arrow">→</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="card product-card animate-card">
+            <img src="assets/belpaper.jpg" class="card-img-top" alt="Cabbage">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Cabbage</h4>
+              <a href="cabbage.html" class="see-more"> <span class="arrow">→</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="card product-card animate-card">
+            <img src="assets/tomato.webp" class="card-img-top" alt="Broccoli">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Broccoli</h4>
+              <a href="broccoli.html" class="see-more">
+                <span class="arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section>
+  <!-- Why Choose Us Section -->
+  <section id="why-choose-us">
+    <div class="container">
+      <h2 class="text-center mb-4 animate-fade-in">Why Choose Us</h2>
+      <div class="main-timeline">
+
+        <!-- start experience section-->
+        <div class="timeline">
+          <div class="icon"></div>
+          <div class="date-content">
+            <div class="date-outer">
+              <span class="date">
+                <span class="month">100 % </span>
+                <span class="year">Fresh</span>
+              </span>
+            </div>
+          </div>
+          <div class="timeline-content">
+            <h5 class="title">100 % Fresh & Natural</h5>
+            <p class="description">
+              We believe in purity and freshness. Our vegetables are grown in nutrient-rich soil, 
+              handpicked at peak ripeness, and carefully packed to preserve their natural flavor, texture,
+               and nutrition. We source directly from trusted farms, ensuring you receive only the best.
+            </p>
+          </div>
+        </div>
+        <!-- end experience section-->
+
+        <!-- start experience section-->
+        <div class="timeline">
+          <div class="icon"></div>
+          <div class="date-content">
+            <div class="date-outer">
+              <span class="date">
+                <span class="month">100 %</span>
+                <span class="year">Quality</span>
+              </span>
+            </div>
+          </div>
+          <div class="timeline-content">
+            <h5 class="title">Premium Quality Standards</h5>
+            <p class="description">
+              Quality is our top priority. Every batch undergoes strict quality control checks, 
+              ensuring that our vegetables meet and exceed international food safety regulations. From farm to packaging, 
+              we maintain high hygiene and handling standards to guarantee freshness.
+            </p>
+          </div>
+        </div>
+        <!-- end experience section-->
+
+        <!-- start experience section-->
+        <div class="timeline">
+          <div class="icon"></div>
+          <div class="date-content">
+            <div class="date-outer">
+              <span class="date">
+                <span class="month">100 %</span>
+                <span class="year">Organic</span>
+              </span>
+            </div>
+          </div>
+          <div class="timeline-content">
+            <h5 class="title">Organic & Chemical-Free Produce</h5>
+            <p class="description">
+              We prioritize health and well-being by providing vegetables that are free from harmful pesticides, 
+              chemicals, and synthetic fertilizers.
+               Our produce is cultivated using eco-friendly and sustainable farming methods that preserve natural
+                taste and nutrients.
+            </p>
+          </div>
+        </div>
+        <!-- end experience section-->
+
+        <!-- start experience section-->
+        <div class="timeline">
+          <div class="icon"></div>
+          <div class="date-content">
+            <div class="date-outer">
+              <span class="date">
+                <span class="month">100 %</span>
+                <span class="year">Reliable</span>
+              </span>
+            </div>
+          </div>
+          <div class="timeline-content">
+            <h5 class="title">Reliable Global Export Services</h5>
+            <p class="description">
+              With a robust supply chain and an efficient logistics network, we ensure timely delivery to our clients worldwide.
+               Whether you need bulk 
+              shipments or customized orders, we guarantee that your vegetables arrive fresh, crisp, and in perfect condition.
+            </p>
+          </div>
+        </div>
+        <!-- end experience section-->
+
+      </div>
+      <hr>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header text-center">
+        <span class="section-subtitle">Contact Us</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="title-separator">
+          <span class="separator-line"></span>
+          <span class="separator-icon">
+            <i class='bx bx-envelope'></i>
+          </span>
+          <span class="separator-line"></span>
+        </div>
+      </div>
+
+      <div class="row gy-4 align-items-center">
+        <!-- Contact Information -->
+        <div class="col-lg-5" data-aos="fade-right">
+          <div class="contact-info-wrapper">
+            <div class="contact-card">
+              <div class="card-icon">
+                <i class='bx bx-map'></i>
+              </div>
+              <div class="card-content">
+                <h4>Our Location</h4>
+                <p>8014 Edith Blvd NE, </p>
+                <p>Albuquerque,New York, </p>
+                <p> United States</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="card-icon">
+                <i class='bx bx-phone'></i>
+              </div>
+              <div class="card-content">
+                <h4>Call Us</h4>
+                <p><a href="tel:+15057922430">(505) 792-2430</a></p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="card-icon">
+                <i class='bx bx-envelope'></i>
+              </div>
+              <div class="card-content">
+                <h4>Email Us</h4>
+                <p><a href="mailto:info@example.com">info@example.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="card-icon">
+                <i class='bx bx-time-five'></i>
+              </div>
+              <div class="card-content">
+                <h4>Working Hours</h4>
+                <p>Mon - Fri: 9:00 AM - 5:00 PM</p>
+                <p>Sat - Sun: 9:00 AM - 2:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-7" data-aos="fade-left">
+          <div class="contact-form-wrapper">
+            <form id="contactForm" class="contact-form">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" required>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" class="form-control" required>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="form-control" rows="5" required></textarea>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="submit-btn">
+                    <span>Send Message</span>
+                    <i class='bx bx-send'></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer-section">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="footer-info">
+              <h3 class="footer-logo">XYZEXPORT</h3>
+              <p class="footer-desc">
+                Your trusted partner in global vegetable trade, delivering quality produce worldwide.
+              </p>
+              <div class="social-links">
+                <a href="#" class="social-link"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="social-link"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="social-link"><i class='bx bxl-linkedin'></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <div class="footer-links">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-links">
+              <h4>Our Products</h4>
+              <ul>
+                <li><a href="#">Fresh Vegetables</a></li>
+                <li><a href="#">Organic Produce</a></li>
+                <li><a href="#">Seasonal Items</a></li>
+                <li><a href="#">Bulk Orders</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="footer-newsletter">
+              <h4>Newsletter</h4>
+              <p>Subscribe to receive updates and special offers</p>
+              <form class="newsletter-form">
+                <input type="email" placeholder="Your email">
+                <button type="submit"><i class='bx bx-envelope'></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="copyright">
+          © <span id="currentYear"></span> <strong>XYZEXPORT</strong>. All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Elements -->
+  <div id="scroll-top" class="scroll-top">
+    <i class='bx bx-chevron-up'></i>
+  </div>
+
+  <a href="https://wa.me/yourwhatsappnumber" class="whatsapp-float" target="_blank">
+    <i class='bx bxl-whatsapp'></i>
+  </a>
+
+  <!-- Bootstrap JS -->
+  
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>
